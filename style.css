@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(10, 100%, 86%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbox {
+  background-color: hsl(10, 79%, 65%);
+  width: 470px;
+  height: 90px;
+  border-radius: 20px;
+  display: flex;
+  gap: 190px;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbox p {
+  color: white;
+  font-size: 16px;
+}
+
+.topbox h1 {
+  color: white;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bottombox {
+  background-color: white;
+  width: 470px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.bottombox h1 {
+  color: black;
+}
+
+.divss {
+  border-bottom: 0.5px solid hsl(0, 0%, 84%);
+  margin-top: 100px;
+}
+
+.bottombox h1 {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.divvv {
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+  align-items: end;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.rd {
+  background-color: hsl(10, 79%, 65%);
+  width: 50px;
+  border-radius: 5px;
+}
+
+.mon {
+  height: 50px;
+}
+
+.tue {
+  height: 80px;
+}
+
+.wed {
+  height: 140px;
+  background-color: hsl(186, 34%, 65%);
+}
+
+.thu {
+  height: 70px;
+}
+
+.fri {
+  height: 60px;
+}
+
+.sat {
+  height: 110px;
+}
+
+.sun {
+  height: 65px;
+}
+
+.divvv {
+  text-align: center;
+}
+
+p {
+  color: hsl(28, 10%, 53%);
+  font-size: 18px;
+}
+
+.lastbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 190px;
+  margin-top: 30px;
+}
+
+.dark {
+  color: black;
+  font-weight: bold;
+}
+
+.siz {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.pipi {
+  font-size: 14px;
+}
+
+.wed:hover {
+  background-color: hsl(186, 92%, 90%);
+  transition: 0.3s;
+}
+
+.thu:hover {
+  background-color: hsl(10, 81%, 76%);
+  transition: 0.3s;
+}
